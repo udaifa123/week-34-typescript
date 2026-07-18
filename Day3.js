@@ -54,7 +54,7 @@ let item = {
 console.log(item);
 ///////////////////////////////////////////////////////////////////
 //✅ Deliverables
-//1. Build Reusable Generic Utilities
+//✅ 1. Build Reusable Generic Utilities
 function identity1(value) {
     return value;
 }
