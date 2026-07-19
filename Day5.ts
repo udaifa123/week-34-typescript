@@ -49,9 +49,9 @@ class User {
 
 import "reflect-metadata"
 
-class User1 {
+class User2 {
     constructor(public name:string) {}
 }
 
-const data= Reflect.getMetadata("design:paramtypes",User1)
+const data= Reflect.getMetadata("design:paramtypes",User2)
 console.log(data)
