@@ -43,8 +43,6 @@ let msg = `Hello ${name3}`;
 console.log(msg);
 //🔹 Classes
 class User {
-    name;
-    age;
     constructor(name, age) {
         this.name = name;
         this.age = age;
@@ -57,8 +55,6 @@ let u1 = new User("Khadeeja", 29);
 u1.greet();
 //🔹 Access Modifiers
 class Person {
-    name;
-    age;
     constructor(name, age) {
         this.name = name;
         this.age = age;
